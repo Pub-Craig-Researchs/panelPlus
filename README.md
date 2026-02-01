@@ -27,14 +27,9 @@ This refined version introduces several state-of-the-art methods:
 ## Development & Credits
 
 > **Note on Implementation**: 
-> The code in this repository was developed and optimized under the assistance of the **Claude AI Agent**, focusing on structural integrity and computational efficiency.
+> The code in this repository was developed and optimized under the assistance of the **Claude LLM Agent**, focusing on structural integrity and computational efficiency.
 
 * **Original Reference**: Álvarez, I., Barbero, J., & Zofío, J. L. (2017). "A Panel Data Toolbox for MATLAB." *Journal of Statistical Software*.
 
 ---
 
-## Installation
-Add the `panelPlus` folder and its subfolders to your MATLAB path:
-```matlab
-addpath(genpath('your_path/panelPlus'));
-savepath;
