@@ -1,8 +1,8 @@
-##panelPlus
+##panelPlus##
 
 *panelPlus* is an enhanced econometric library built upon the foundation of *A Panel Data Toolbox for MATLAB*. It aims to extend the original toolbox's capabilities by integrating modern machine learning techniques and robust estimation methods.
 
-#Key Enhancements
+#Key Enhancements#
 Refructured Architecture: Reorganized all core functions into three intuitive modules: Time Series, Machine Learning, and Causal Inference.
 
 Advanced Econometric Methods:
