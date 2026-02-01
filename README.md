@@ -1,20 +1,40 @@
-##panelPlus##
+# panelPlus
 
-*panelPlus* is an enhanced econometric library built upon the foundation of *A Panel Data Toolbox for MATLAB*. It aims to extend the original toolbox's capabilities by integrating modern machine learning techniques and robust estimation methods.
+[![MATLAB](https://img.shields.io/badge/Language-MATLAB-orange.svg)](https://www.mathworks.com/products/matlab.html)
+[![Version](https://img.shields.io/badge/Version-Refined-blue.svg)](#)
 
-#Key Enhancements#
-Refructured Architecture: Reorganized all core functions into three intuitive modules: Time Series, Machine Learning, and Causal Inference.
+**panelPlus** is an advanced econometric library refined from the original *A Panel Data Toolbox for MATLAB*. This version extends the classical panel data framework by integrating modern machine learning algorithms and robust causal inference methods.
 
-Advanced Econometric Methods:
+---
 
-Double Debiased Machine Learning (DDML): For high-dimensional nuisance parameter handling.
+## Key Enhancements
 
-Panel FGLS: Feasible Generalized Least Squares for handling non-spherical error structures.
+### 1. Architectural Reclassification
+The functions have been logically reorganized into specialized packages to improve workflow efficiency:
+* **timeseries/**: Tools for temporal dependencies and dynamic panel analysis.
+* **machine_learning/**: High-dimensional modeling and predictive analysis.
+* **causal_estimation/**: Modern identification strategies and treatment effect estimation.
 
-Two-way Clustering: Provides robust standard errors clustered by both entity and time.
+### 2. New Econometric Estimators
+This refined version introduces several state-of-the-art methods:
+* **DDML**: Double Debiased Machine Learning for high-dimensional nuisance parameter handling.
+* **Panel FGLS**: Feasible Generalized Least Squares for robust estimation under non-spherical errors.
+* **Two-way Clustering**: Robust inference providing standard errors clustered by both entity and time.
+* **Causal Forest**: Implementation of Generalized Random Forests for heterogeneous treatment effects.
 
-Causal Forest: Implementation of Generalized Random Forests for heterogeneous treatment effects.
+---
 
-Performance & Modernization: Optimized existing routines for better compatibility with recent MATLAB versions.
+## Development & Credits
 
-Note: This project was developed with technical assistance from Claude AI to ensure code efficiency and structural integrity.
+> **Note on Implementation**: 
+> The code in this repository was developed and optimized under the assistance of the **Claude AI Agent**, focusing on structural integrity and computational efficiency.
+
+* **Original Reference**: Álvarez, I., Barbero, J., & Zofío, J. L. (2017). "A Panel Data Toolbox for MATLAB." *Journal of Statistical Software*.
+
+---
+
+## Installation
+Add the `panelPlus` folder and its subfolders to your MATLAB path:
+```matlab
+addpath(genpath('your_path/panelPlus'));
+savepath;
